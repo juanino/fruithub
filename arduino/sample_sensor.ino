@@ -5,7 +5,8 @@
 #include <ESP8266WiFi.h>
 #include "config.h"
 
-/*
+/* Uncomment this section and set your variables or create a config.h in
+ * the same directory and put the consts in it.
  * const char* ssid     = "your ssid name";
  * const char* password = "your secret";
  * const char* host     = "hostname or ip address";
