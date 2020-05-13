@@ -12,3 +12,7 @@ def hello_world():
 @app.route('/checkin/<devicename>')
 def checkin(devicename):
     return 'fruithub: Device %s checkin works' % escape(devicename)
+
+@app.route('/post/<devicename>/<sensor>/<status>')
+def store_sensor(devicename,sensor,status):
+    return 'fruithub: Device' + devicename + 'sensor' + sensor + 'has status' + str(status)
