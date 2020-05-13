@@ -15,4 +15,4 @@ def checkin(devicename):
 
 @app.route('/post/<devicename>/<sensor>/<status>')
 def store_sensor(devicename,sensor,status):
-    return 'fruithub: Device' + devicename + 'sensor' + sensor + 'has status' + str(status)
+    return 'fruithub: Device:' + devicename + ' sensor:' + sensor + ' has status:' + str(status)
