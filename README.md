@@ -8,6 +8,6 @@ Sample arduino code from: https://learn.adafruit.com/adafruit-feather-huzzah-esp
 You should be able to start the flask app and run the sketch with minor mods.
 It does nothing yet, but you can make it read a sensor and pass that value into the post.
 
-For a more complete sensor see https://github.com/juanino/wetfeather
+For a more complete sensor an esp8266 water sensor sample project:  https://github.com/juanino/wetfeather
 
 Also inspired by this: https://www.hackster.io/glowascii/getting-started-with-the-feather-huzzah-81fe61
