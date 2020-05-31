@@ -28,5 +28,7 @@ def checkin(devicename):
 def store_sensor(devicename,sensor,status):
     # Publish a message.
     msg ='fruithub: Device:' + devicename + ' sensor:' + sensor + ' has status:' + str(status) 
-    client.publish(Message=msg, TopicArn=cfg.topic_arn)
+    print(msg)
+    rc = client.publish(Message=msg, TopicArn=cfg.topic_arn)
+    print(rc)
     return msg
